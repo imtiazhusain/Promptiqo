@@ -112,10 +112,10 @@ export default function Home() {
       <header className="flex items-center gap-3 px-5 py-3.5 border-b border-white/[0.07] shrink-0">
         {/* Logo badge */}
         <div className="w-7 h-7 rounded-lg bg-[#f0ede8] flex items-center justify-center shrink-0">
-          <span className="text-[12px] font-medium text-[#111110]">C</span>
+          <span className="text-[12px] font-medium text-[#111110]">P</span>
         </div>
 
-        <span className="text-sm font-medium">ChatDPT</span>
+        <span className="text-sm font-medium">Promptiqo</span>
 
         {/* Model label on the right */}
         <span className="ml-auto text-xs text-white/30">llama-3.3-70b</span>

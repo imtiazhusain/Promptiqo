@@ -1,4 +1,4 @@
-# ChatDPT
+# Promptiqo
 
 A full-stack AI assistant built with Next.js — with conversation memory, live web search, and few-shot prompting. No separate server. One codebase, one deploy.
 
@@ -13,7 +13,7 @@ A full-stack AI assistant built with Next.js — with conversation memory, live 
 
 Most ChatGPT clones are glorified wrappers — one API call, no memory, no tools.
 
-ChatDPT goes further:
+Promptiqo goes further:
 
 - **Conversation memory** — stores the full message history per thread using `node-cache`. The AI remembers everything you've said in the session.
 - **Live web search** — powered by Serper API. The model decides on its own when to search Google vs. answer from its own knowledge.
@@ -69,7 +69,7 @@ Just. A. While. Loop.
 ## Project structure
 
 ```
-chatdpt/
+Promptiqo/
 ├── app/
 │   ├── layout.js           # Root HTML layout, metadata
 │   ├── page.js             # Chat UI — all frontend logic
@@ -92,8 +92,8 @@ chatdpt/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/chatdpt.git
-cd chatdpt
+git clone https://github.com/imtiazhusain/Promptiqo.git
+cd Promptiqo
 ```
 
 ### 2. Install dependencies

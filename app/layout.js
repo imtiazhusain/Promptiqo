@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'ChatDPT',
+  title: 'Promptiqo',
   description: 'A smart personal assistant',
 };
 
